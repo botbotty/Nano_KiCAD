@@ -1,0 +1,23 @@
+(footprint "DO-220AA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -1.4) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
+    (tstamp 62a12d79-36bd-4242-abb1-e792e64ce1ef)
+  )
+  (fp_text value "C_0603_1608Metric" (at 0 2.54) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
+    (tstamp 9af1aa20-f344-4b64-97a0-b99f5b5285ee)
+  )
+  (fp_rect (start -1.651 -0.889) (end 1.651 0.889) (layer "F.Fab") (width 0.1) (fill none) (tstamp b461c37f-9fd9-474a-8c54-c0cf75962603))
+  (pad "1" smd roundrect (at -0.7 0) (size 2.667 2.54) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15)
+    (solder_paste_margin -0.0762) (tstamp e80ae3bb-42ec-4f32-9b11-6572cb1dfcac))
+  (pad "2" smd roundrect (at 1.65 0) (size 0.762 1.27) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15)
+    (solder_paste_margin -0.0762) (tstamp 856c7457-05a9-4cf5-890e-0325386fb438))
+  (model "${KIPRJMOD}/NanoV3.3.3dshapes/DO-220AA.stp"
+    (offset (xyz -0.725 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

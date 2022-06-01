@@ -1,0 +1,14 @@
+(footprint "TestPoint_Pad_D1.0mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.889) (layer "B.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (tstamp a86f153d-253c-41bc-9839-5eb9bb152a29)
+  )
+  (fp_text value "TestPoint_Pad_D1.0mm" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e4db5909-ec7e-41c2-91cd-d7c8f2af09b6)
+  )
+  (pad "X" smd roundrect (at 0 0) (size 1 1) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.5)
+    (solder_paste_margin -0.0762) (zone_connect 2) (tstamp dab741e7-67e8-44ce-bc3e-32706f94ad6e))
+)
