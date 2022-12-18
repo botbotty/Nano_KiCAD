@@ -6,7 +6,7 @@ The original project was made for EAGLE v7. The schematic, PCB and some of the s
 
 ## Acknowledgement
 
-The original project was downloaded from (Arduino Official Store)[https://store.arduino.cc/products/arduino-nano].
+The original project was downloaded from [Arduino Official Store](https://store.arduino.cc/products/arduino-nano).
 
 3D models in the [NanoV3.3.3dshapes](NanoV3.3.3dshapes) directory are works of others.
 
